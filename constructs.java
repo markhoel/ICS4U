@@ -48,7 +48,7 @@ public class constructs {
 		JFrame frame = new JFrame();
 		frame.setSize(400, 300);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); // set what happens when you exit
-		frame.setVisible(true); // show the window
+		frame.show(true); // show the window
 		
 		// MODULARITY - break your program into byte :-) size chunks 
 		// Modularity increases readability, re-usability of code and reduce bugs
